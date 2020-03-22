@@ -57,7 +57,7 @@ class ErrbackMiddleware(object):
 
 class EmptySpiderOutputMiddleware(object):
     '''
-    This DL MWare posts an elasticsearch log if an execution of spider's callback doesn't yield a request or item
+    This Spider MWare posts an elasticsearch log if an execution of spider's callback doesn't yield a request or item
     
     This could be indicative of a Selector expression no longer working
     '''
